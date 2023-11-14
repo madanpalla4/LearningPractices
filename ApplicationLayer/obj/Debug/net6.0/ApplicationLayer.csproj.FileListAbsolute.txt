@@ -1,0 +1,15 @@
+D:\practice\ConsoleApp1\ApplicationLayer\bin\Debug\net6.0\ApplicationLayer.deps.json
+D:\practice\ConsoleApp1\ApplicationLayer\bin\Debug\net6.0\ApplicationLayer.dll
+D:\practice\ConsoleApp1\ApplicationLayer\bin\Debug\net6.0\ApplicationLayer.pdb
+D:\practice\ConsoleApp1\ApplicationLayer\obj\Debug\net6.0\ApplicationLayer.csproj.AssemblyReference.cache
+D:\practice\ConsoleApp1\ApplicationLayer\obj\Debug\net6.0\ApplicationLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\practice\ConsoleApp1\ApplicationLayer\obj\Debug\net6.0\ApplicationLayer.AssemblyInfoInputs.cache
+D:\practice\ConsoleApp1\ApplicationLayer\obj\Debug\net6.0\ApplicationLayer.AssemblyInfo.cs
+D:\practice\ConsoleApp1\ApplicationLayer\obj\Debug\net6.0\ApplicationLayer.csproj.CoreCompileInputs.cache
+D:\practice\ConsoleApp1\ApplicationLayer\obj\Debug\net6.0\ApplicationLayer.dll
+D:\practice\ConsoleApp1\ApplicationLayer\obj\Debug\net6.0\refint\ApplicationLayer.dll
+D:\practice\ConsoleApp1\ApplicationLayer\obj\Debug\net6.0\ApplicationLayer.pdb
+D:\practice\ConsoleApp1\ApplicationLayer\obj\Debug\net6.0\ref\ApplicationLayer.dll
+D:\practice\ConsoleApp1\ApplicationLayer\bin\Debug\net6.0\RepositoryLayer.dll
+D:\practice\ConsoleApp1\ApplicationLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\practice\ConsoleApp1\ApplicationLayer\obj\Debug\net6.0\ApplicationLayer.csproj.CopyComplete

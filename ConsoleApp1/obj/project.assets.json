@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ApplicationLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RepositoryLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApplicationLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplicationLayer.dll": {}
+        }
+      },
+      "RepositoryLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RepositoryLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RepositoryLayer.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ApplicationLayer/1.0.0": {
+      "type": "project",
+      "path": "../ApplicationLayer/ApplicationLayer.csproj",
+      "msbuildProject": "../ApplicationLayer/ApplicationLayer.csproj"
+    },
+    "RepositoryLayer/1.0.0": {
+      "type": "project",
+      "path": "../RepositoryLayer/RepositoryLayer.csproj",
+      "msbuildProject": "../RepositoryLayer/RepositoryLayer.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ApplicationLayer >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\madan\\.nuget\\packages\\": {},
@@ -39,7 +76,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\practice\\ConsoleApp1\\ApplicationLayer\\ApplicationLayer.csproj": {
+              "projectPath": "D:\\practice\\ConsoleApp1\\ApplicationLayer\\ApplicationLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

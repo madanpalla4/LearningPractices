@@ -1,44 +1,34 @@
-﻿using ConsoleApp1;
-
+﻿using ApplicationLayer.InterfaceService;
+using ApplicationLayer.Model;
+using ApplicationLayer.Service;
 
 public class Program
 {
     //types values types and refrence type
     public static void Main()
     {
-       Functinalities ex=new CarExample();
-        Console.WriteLine( ex.Accelarte());
-        Functinalities ex2 = new Bike();
-
-        ex2.Accelarte();
-
-        derviation d = new derviation(new Bike());
-        derviation d1 = new derviation(new CarExample()); // injection
-                                                          //derviation d2 = new derviation(new Cycle());
-        ImplemnetInterface test=new ImplemnetInterface();
-        test.SentEmail();
-        test.CalculateMyage();
-        
-
-
+        Console.WriteLine( "Welcome. please enter to Login Screen");
+        Console.ReadLine();
+        Console.WriteLine("Enter UserName and click Enter");
+        UserModel us=new UserModel();
+        us.UserName = Console.ReadLine();
+        Console.WriteLine("ENter Password and press enter to Login");
+        us.Password = Console.ReadLine();
+        InterfaceUserService interfaceUserService = new UserService();
+        bool reponse= interfaceUserService.ValidateLogin(us);
+        if (reponse == true)
+        {
+            Console.WriteLine(  "Successsfully Login");
+        }
+        else
+        {
+            Console.WriteLine( "Login Failed due to Username or Password Mismatch");
+        }
     }
 
    
 }
 
-public class derviation
-{
-    private Functinalities Encapsulationfn;
-    //private Bike bike;
-    public derviation(Functinalities fn)
-    {
-        Encapsulationfn = fn;
-        fn.CurrTime();
-        Functinalities.Name();
-    }
-
-
-}
 
 
 
